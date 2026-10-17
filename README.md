@@ -2,7 +2,7 @@
 
 Uma landing page demonstrativa para a marca Refriz, desenvolvida pela WebNest para apresentar três sabores de refrigerante: morango, laranja e limão. O projeto combina imagens de produto, cores vibrantes e uma interface moderna para destacar a identidade visual da marca.
 
-Versão 1.0.2
+Versão 1.1.2
 
 🔗 **Acesse o projeto:** [WebNest Refriz](https://gabriel-silira.github.io/WebNest-Refriz/)
 
@@ -24,6 +24,7 @@ Versão 1.0.2
 
 - **Apresentação da marca:** seção inicial com destaque para a Refriz e seus três sabores.
 - **Navegação por seções:** acesso às áreas de sabores, momentos e interesse.
+- **Menu mobile:** atalhos de sabores, momentos e interesse reunidos em um menu de três linhas.
 - **Faixa animada de sabores:** destaque visual para Morango, Laranja e Limão.
 - **Cards de produtos:** apresentação individual de cada sabor, com imagens, descrições e características.
 - **Seção de momentos:** apresentação de diferentes ocasiões para aproveitar os refrigerantes.
@@ -60,6 +61,8 @@ WebNest-Refriz/
 │       └── sabores.png
 ├── style/
 │   └── style.css
+├── js/
+│   └── menu.js
 ├── index.html
 └── README.md
 ```

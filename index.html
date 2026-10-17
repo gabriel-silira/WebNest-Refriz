@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Refriz</title>
   <meta name="description" content="Refriz: refrigerantes gelados nos sabores morango, laranja e limão.">
   <link rel="icon" type="image/png" href="assets/logo.png">
@@ -15,7 +15,12 @@
   <header class="site-header container" id="topo">
     <a class="logo" href="#topo">Refriz</a>
 
-    <nav class="nav" aria-label="Principal">
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="menu-toggle__label">Abrir menu</span>
+      <span class="menu-toggle__icon" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+
+    <nav class="nav" id="menu-principal" aria-label="Principal">
       <a class="nav-link nav-link--sabores" href="#sabores">Sabores</a>
       <a class="nav-link nav-link--momentos" href="#momentos">Momentos</a>
       <a class="btn btn--nav" href="#interesse">Quero provar</a>
@@ -200,6 +205,7 @@
     </div>
   </footer>
 
+  <script src="js/menu.js"></script>
 </body>
 
 </html>
